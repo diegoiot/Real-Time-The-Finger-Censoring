@@ -20,7 +20,7 @@ I have developed an object detection model that can detect the finger and censor
 <li>Nvidia Jetson Xavier Nx (any jetson would be fine)</li>
 <li>Raspberry Pi Camera Module V2 (any camera that jetson supports would be fine)</li>
 <li>jetson-inference library</li>
-<li> One middle finger</li>
+<li> One middle finger (or multible, idk)</li>
 
 <br>
 
@@ -28,7 +28,7 @@ I have developed an object detection model that can detect the finger and censor
   <img alt="header" width="65%" src="media/me_the_finger.jpg">
 </div><br>
 
-> Me showing the finger to the camera can be found [here](https://www.youtube.com/watch?v=XT6rzC5_HAw).
+> Me showing the finger to the camera video can be found [here](https://www.youtube.com/watch?v=XT6rzC5_HAw).
 
 [Jetson-inference](https://github.com/dusty-nv/jetson-inference) library is awesome! It provides guide and realtime [DNN Vision](https://github.com/dusty-nv/jetson-inference#api-reference) library for [Jetson Nano/TX1/TX2/Xavier NX/AGX Xavier](http://www.nvidia.com/object/embedded-systems.html). Also this project uses NVIDIA [TensorRT](https://developer.nvidia.com/tensorrt) for fast and efficient detection.
 
